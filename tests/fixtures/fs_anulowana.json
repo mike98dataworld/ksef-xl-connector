@@ -1,0 +1,10 @@
+{
+  "naglowek": {"gid_typ": 2033, "gid_numer": 900004, "stan": 6, "numer": "(S)FS-4/10/26/C", "seria": "C",
+               "data_wyst": 82476, "data_sprz": 82476, "waluta": "", "flaga_nb": "B", "zam_obcy": "", "opis": ""},
+  "nabywca": {"nip": "", "nazwa1": "Jan Testowy", "adres": "Kwiatowa 5", "kodp": "30-001", "miasto": "Kraków"},
+  "pozycje": [
+    {"lp": 1, "kod": "PNL-001", "nazwa": "Panel", "ilosc": 1.0000, "jm": "szt", "stawka": 23.00, "flaga_vat": 1, "netto": 81.30, "brutto": 100.00}
+  ],
+  "vat": [{"stawka": 23.00, "flaga_vat": 1, "netto": 81.30, "vat": 18.70}],
+  "platnosci": [],
+  "wz": [],"zamowienia":[]}

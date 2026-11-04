@@ -1,0 +1,45 @@
+# Dane firmy wystawiającej faktury (Podmiot1) i zasady wysyłki.
+# Skopiuj do firma.toml (jest w .gitignore) albo wskaż plik zmienną KSEF_FIRMA.
+# Wszystkie wartości poniżej są FIKCYJNE — ten plik służy tylko do testów i jako wzór.
+
+[sprzedawca]
+nip = "1111111111"
+nazwa = "Przykładowa Firma Sp. z o.o."
+kod_kraju = "PL"
+adres_linia1 = "ul. Przykładowa 1"
+adres_linia2 = "00-001 Warszawa"
+
+[zasady]
+# Faktury dla osób prywatnych (bez NIP nabywcy) — czy wysyłać do KSeF.
+# false = konektor je pomija (sprzedaż B2C raportowana inaczej, np. paragonami z kasy).
+wysylaj_bez_nip = false
+
+# Rachunek do zapłaty na fakturach NIEZAPŁACONYCH z formą „przelew”, osobno dla każdej waluty.
+# Na fakturach już zapłaconych konektor rachunku nie podaje.
+[rachunki.do_zaplaty.PLN]
+nr = "02111122220000000000000001"
+swift = "TESTPLPW"
+bank = "Bank Przykładowy S.A."
+opis = "PLN"
+
+[rachunki.do_zaplaty.EUR]
+nr = "72111122220000000000000002"
+swift = "TESTPLPW"
+bank = "Bank Przykładowy S.A."
+opis = "EUR"
+
+[rachunki.do_zaplaty.HUF]
+nr = "123456781234567812345678"
+bank = "Przykładowy Operator Płatności"
+opis = "HUF"
+
+# Rachunek z proform i faktur zaliczkowych (FSL) — podawany zawsze, także na zapłaconych.
+[rachunki.proformy]
+nr = "45111122220000000000000003"
+swift = "TESTPLPW"
+bank = "Bank Przykładowy S.A."
+opis = "PLN"
+
+# Rachunek na korektach (korekty na plus też się zdarzają). Brak sekcji = rachunek z proform.
+# [rachunki.korekty]
+# nr = "..."

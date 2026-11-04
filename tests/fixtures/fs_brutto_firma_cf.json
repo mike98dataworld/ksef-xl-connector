@@ -1,0 +1,13 @@
+{
+  "naglowek": {"gid_typ": 2033, "gid_numer": 900003, "stan": 5, "numer": "(S)FS-3/10/26/C/F", "seria": "C/F",
+               "data_wyst": 82476, "data_sprz": 82476, "waluta": "", "flaga_nb": "B", "zam_obcy": "Zamówienie TEST-1", "opis": ""},
+  "nabywca": {"nip": "987-654-32-10", "nip_prefiks": "", "kraj": "", "nazwa1": "Studio Testowe Anna Przykład",
+              "ulica": "ul. Długa", "adres": "12", "kodp": "90-001", "miasto": "Łódź"},
+  "pozycje": [
+    {"lp": 1, "kod": "PNL-003", "nazwa": "Panel 3D", "ilosc": 3.0000, "jm": "szt", "stawka": 23.00, "flaga_vat": 1, "netto": 365.85, "brutto": 450.00}
+  ],
+  "vat": [
+    {"stawka": 23.00, "flaga_vat": 1, "netto": 365.85, "vat": 84.15}
+  ],
+  "platnosci": [],
+  "wz": [{"numer": "WZ-3/10/26/C"}],"zamowienia":[]}

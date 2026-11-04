@@ -1,0 +1,10 @@
+# Do Cloud Build trafia TYLKO to, co potrzebne do obrazu. Nigdy: .env (token KSeF), fixtures_prod/ (dane klientów),
+# out/, rejestr.sqlite, .ksef_test/. Lista dozwolonych zamiast zakazanych, żeby nowy plik nie wyciekł przypadkiem.
+*
+!Dockerfile
+!requirements-serwis.txt
+!schemas/
+!schemas/**
+!ksef_connector/
+!ksef_connector/**
+ksef_connector/**/__pycache__/

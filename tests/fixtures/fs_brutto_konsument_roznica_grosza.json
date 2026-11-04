@@ -1,0 +1,14 @@
+{
+  "naglowek": {"gid_typ": 2033, "gid_numer": 900002, "stan": 5, "numer": "(S)FS-2/10/26/C", "seria": "C",
+               "data_wyst": 82476, "data_sprz": 82476, "waluta": "PLN", "flaga_nb": "B", "zam_obcy": "", "opis": ""},
+  "nabywca": {"nip": "", "nip_prefiks": "", "kraj": "PL", "nazwa1": "Jan Testowy", "nazwa2": "", "nazwa3": "",
+              "ulica": "", "adres": "Kwiatowa 5 m. 2", "kodp": "30-001", "miasto": "Kraków"},
+  "pozycje": [
+    {"lp": 1, "kod": "PRB:FGO", "nazwa": "Próbka panelu", "ilosc": 1.0000, "jm": "szt", "stawka": 23.00, "flaga_vat": 1, "netto": 81.29, "brutto": 99.99},
+    {"lp": 2, "kod": "PRB:XYZ", "nazwa": "Próbka panelu 2", "ilosc": 1.0000, "jm": "szt", "stawka": 23.00, "flaga_vat": 1, "netto": 40.64, "brutto": 49.99}
+  ],
+  "vat": [
+    {"stawka": 23.00, "flaga_vat": 1, "netto": 121.93, "vat": 28.04}
+  ],
+  "platnosci": [{"termin": 82476, "forma": "Przelewy24", "forma_nr": 30, "kwota": 149.97, "pozostaje": 0, "rachunek_id": 0, "data_rozl": 82476}],
+  "wz": [{"numer": "WZ-2/10/26/C"}],"zamowienia":[]}
